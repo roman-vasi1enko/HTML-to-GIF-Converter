@@ -34,9 +34,12 @@ Node.js is required to run our tool. Follow the instructions below for your oper
 
 ## Step 3: Install the Tool
 
-1. [Install the VSCode](https://code.visualstudio.com/) code editor
-2. Open Terminal in VSCode: (top bar menu) Terminal > New Terminal or View > Terminal menu commands.
-3. Type `npm install` and press Enter. This command installs all necessary dependencies.
+1. [Install the VSCode](https://code.visualstudio.com/) code editor and open it.
+2. Drag and drop the repository folder you just unzipped to the VSCode window.
+3. Open the Terminal in VSCode: (top bar menu) Terminal > New Terminal or View > Terminal menu commands.
+4. Make sure the terminal is at the repository's folder location:
+   1. Example: `username@Romans-MacBook-Air HTML-to-GIF-Converter-main %`
+5. Type `npm install` and press Enter. This command installs all necessary dependencies.
    1. If you are experiencing errors during installation, most likely, there is an incompatibility with your computer software or hardware. Try copying full logs of the error from the Terminal and ask ChatGPT or another AI model to help you fix it.
 
 ## Step 4: Run the Tool
