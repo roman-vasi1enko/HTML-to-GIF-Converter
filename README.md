@@ -50,8 +50,8 @@ Congratulations! You've successfully set up the GIF Creation Tool. For usage ins
 1. Place separate banner folders containing `index.html` and the rest of the files into a separate group folder.
    1. Example 1: `Group Folder 1 > Single Banner Folder 1 > index.html`
    2. Example 2: `Group Folder 1 > Sub-group Folder 1 > Single Banner Folder 1 > index.html`
-2. The script will pick up the size of the final banner based on the name of the folder with `index.html` (Single Banner Folder 1, from the previous example). To make sure it does that correctly, rename your folders to include the text in the following format: `BAN_WIDTHxHEIGHT_...` anywhere in the name.
-   1. Example: `FY24_Q2_CampaignPage_TopAIModels_ProgrammaticAIPowered_FORMAT_970x250_JA` - the script will look for 970x250 between "FORMAT_" and following "_" that is right before "JA".
+2. The script will pick up the size of the final banner based on the name of the folder with `index.html` (Single Banner Folder 1, from the previous example). To make sure it does that correctly, rename your folders to include the text in the following format: `BAN_WIDTHxHEIGHT_...` OR `FORMAT_WIDTHxHEIGHT_...` OR `..._WIDTHxHEIGHT_...` anywhere in the name.
+   1. Example: `FY24_Q2_CampaignPage_TopAIModels_ProgrammaticAIPowered_BAN_970x250_JA` - the script will look for 970x250 between "BAN_" and following "_" that is right before "JA".
 3. Copy the path to a group folder ("Group Folder 1").
    1. Windows: Hold Shift and right-click the group folder, then select "Copy as Path" from the context menu
    2. Mac: Hold Option (⌥) and right-click the group folder > click "Copy 'folder_name' as Pathname" from the context menu
@@ -68,3 +68,4 @@ Congratulations! You've successfully set up the GIF Creation Tool. For usage ins
 1. You can start checking GIFs as soon as the script logs "GIF created successfully at: ...".
 2. If you need to make adjustments in the `config.js` file, stop the script at any moment. You don't have to wait until it finishes.
 3. If you need to reduce the size of the GIF, but don't want to mess with the quality configurations - use the [ImageOptim](https://imageoptim.com/) app. It is fast, free, and provides great results.
+4. Sometimes HTML banners are built with extra style rules positioning the banner container a few pixels away from browser borders. By default, the script will reset the banner's `body` element styles (margin & padding). If the styles are applied to a different element, copy the CSS selector of that element using your browser's inspect tool and replace the `resetOffset` variable in the `config.js` file.
