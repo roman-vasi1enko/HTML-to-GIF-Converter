@@ -1,9 +1,9 @@
 module.exports = {
     // Define the location of the parent directory
-    baseDir: '/Users/roman/Downloads/APJ',
+    baseDir: '/Users/roman/Downloads/HPE-US, UK, Canada, Netherlands, India-Q2 banners-04.03.24',
 
     // Count how long (in seconds) does the actual banner takes to run one full loop and enter it here. If, the final GIF cuts too early - add a couple of seconds
-    gifDuration: 10,
+    gifDuration: 12,
 
     // Number of frames per second
     frameRate: 18,

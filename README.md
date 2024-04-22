@@ -53,7 +53,7 @@ Congratulations! You've successfully set up the GIF Creation Tool. For usage ins
 1. Place separate banner folders containing `index.html` and the rest of the files into a separate group folder.
    1. Example 1: `Group Folder 1 > Single Banner Folder 1 > index.html`
    2. Example 2: `Group Folder 1 > Sub-group Folder 1 > Single Banner Folder 1 > index.html`
-2. The script will pick up the size of the final banner based on the name of the folder with `index.html` (Single Banner Folder 1, from the previous example). To make sure it does that correctly, rename your folders to include the text in the following format: `BAN_WIDTHxHEIGHT_...` OR `FORMAT_WIDTHxHEIGHT_...` OR `..._WIDTHxHEIGHT_...` anywhere in the name.
+2. The script will pick up the size of the final banner based on the name of the folder with `index.html` (Single Banner Folder 1, from the previous example). To make sure it does that correctly, rename your folders to include the text in the following format: `FORMAT_WIDTHxHEIGHT_...` anywhere in the name.
    1. Example: `FY24_Q2_CampaignPage_TopAIModels_ProgrammaticAIPowered_BAN_970x250_JA` - the script will look for 970x250 between "BAN_" and following "_" that is right before "JA".
 3. Copy the path to a group folder ("Group Folder 1").
    1. Windows: Hold Shift and right-click the group folder, then select "Copy as Path" from the context menu

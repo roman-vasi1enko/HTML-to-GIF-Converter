@@ -115,7 +115,7 @@ const main = async () => {
     for (const htmlFilePath of htmlFiles) {
         // Extract folder name and dimensions from the HTML file's path or name
         const folderName = path.basename(path.dirname(htmlFilePath));
-        const sizeMatch = folderName.match(/_FORMAT_(\d+)x(\d+)_/) || htmlFilePath.match(/(\d+)x(\d+).html/);
+        const sizeMatch = folderName.match(/_FORMAT_(\d+)x(\d+)_/);
 
         if (sizeMatch) {
             const width = parseInt(sizeMatch[1], 10);
